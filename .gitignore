@@ -1,0 +1,48 @@
+### IDE ###
+.idea/
+*.iml
+.vscode/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Java / Gradle ###
+build/
+.gradle/
+*.class
+
+### Python ###
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Mac OS ###
+.DS_Store
+
+### Model weights (large binaries, never commit) ###
+/models/*
+!/models/.gitkeep
+
+### Local planning doc ###
+Tonik_Build_Guide.md

@@ -1,0 +1,9 @@
+torch
+numpy
+transformers
+safetensors
+sentencepiece
+tiktoken
+grpcio
+grpcio-tools
+huggingface_hub[cli]
